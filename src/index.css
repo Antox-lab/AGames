@@ -1,0 +1,216 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  color: rgb(255, 166, 0);
+  /* text-shadow: 0 0 0.3rem #ffefc4; */
+}
+
+body {
+  margin: 0 0 10rem 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #fffaf5;
+}
+
+.hide {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #eee;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  line-height: 1rem;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-start; */
+  align-items: center;
+  background-color: #eee;
+}
+
+.descriptionCaption {
+  width: 60rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  background-color: #e6e6e6;
+  box-shadow: 0.3rem 0.3rem 0.4rem 0.1rem rgba(60, 60, 60, 0.6);
+  border-radius: 0.8rem;
+  padding-left: 2rem;
+  transition: 0.3s;
+}
+.descriptionCaption:hover {
+  background-color: rgb(140, 140, 140);
+  color: white;
+}
+
+.descriptionSection {
+  color: black;
+  margin: 1rem 2rem 1rem 1rem;
+}
+.descriptionSection img {
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.4rem 0.2rem rgba(60, 60, 60, 0.6);
+}
+
+.navBlock {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.linkButton {
+  margin: 0 0.3rem;
+  padding: 0.3rem;
+  width: 13rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #777;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #888;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background-color: #ccc;
+  transition: 0.5s;
+}
+
+.linkButton:hover {
+  color: black;
+  background-color: rgb(255, 195, 195);
+}
+
+.activeLinkButton {
+  border-radius: 1.5rem 0 0 0;
+  color: white;
+  background-color: #555;
+}
+
+.activeLinkButton:hover {
+  border-radius: 1.5rem 0 0 0;
+  color: white;
+  background-color: #555;
+}
+
+.gameSection {
+  display: flex;
+  padding-top: 5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameButtons {
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  width: 10rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.startButton {
+  background-color: rgb(0, 150, 0);
+}
+.startButton:hover {
+  background-color: rgb(0, 200, 0);
+}
+
+.resetButton {
+  background-color: rgb(255, 0, 0);
+}
+.resetButton:hover {
+  background-color: rgb(255, 129, 129);
+}
+
+.levelButton {
+  padding: 0.5rem;
+  margin: 0.5rem 0.1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  border: none;
+  border-radius: 0.5rem;
+  width: 4rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.levelButton:hover {
+  color: white;
+  background-color: #aaa;
+}
+.activeLevelButton {
+  color: white;
+  background-color: #555;
+}
+.activeLevelButton:hover {
+  color: white;
+  background-color: #555;
+}
+
+.strongLevelButton {
+  width: 8rem;
+}
+
+.jumpFrame {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutDiscriptions {
+  color: rgb(50, 170, 255);
+}
+
+canvas {
+  border: 1px solid black;
+  position: absolute;
+}
+.shoot_canvas {
+  cursor: none;
+}
+.canvas_1 {
+  z-index: 0;
+}
+.canvas_2 {
+  z-index: 1;
+}
+.canvas_3 {
+  z-index: 2;
+}
+.canvas_4 {
+  z-index: 3;
+}
+.canvas_5 {
+  z-index: 4;
+}
+.canvas_6 {
+  z-index: 5;
+}
+.canvas_7 {
+  z-index: 6;
+}

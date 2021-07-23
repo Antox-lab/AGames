@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Dark Labirinth",
+    "descriptions": "You need to find a way out of the dark labyrinth. All that you have, it's only a small torch.",
+    "image": "/img/dl.jpg",
+    "controls": [
+      "⇑ - STEP UP",
+      "⇓ - STEP DOWN",
+      "⇐ - STEP LEFT",
+      "⇒ - STEP RIGHT"
+    ]
+  },
+  {
+    "title": "Strong Jump",
+    "descriptions": "You need to make a parachute jump and land on the platform. Watch the wind.",
+    "image": "/img/sj.jpg",
+    "controls": ["⇓ - JUMP", "⇐ - LEFT", "⇒ - RIGHT"]
+  },
+  {
+    "title": "Crazy Road",
+    "descriptions": "Cross the road. Caution - cars.",
+    "image": "/img/cr.jpg",
+    "controls": [
+      "⇑ - STEP UP",
+      "⇓ - STEP DOWN",
+      "⇐ - STEP LEFT",
+      "⇒ - STEP RIGHT"
+    ]
+  },
+  {
+    "title": "Fanny Shoot",
+    "descriptions": "A funny ball. Can you shoot him?",
+    "image": "/img/fs.jpg",
+    "controls": ["MOUSE MOVE", "Left Click - SHOOT"]
+  }
+]
